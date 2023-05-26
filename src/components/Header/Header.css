@@ -29,6 +29,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: calc(100svh - var(--nav-height));
 }
 
 .main__header>div:not(.container-divider) {
@@ -42,8 +43,8 @@
 } */
 
 .main__header>div:last-child {
-    padding-block: 8em;
-    margin-bottom: 0;
+    /* padding-block: 8em; */
+    /* margin-bottom: 0; */
 }
 
 .main__header-title {
@@ -51,7 +52,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-top: 1em;
+    /* padding-top: 1em; */
     margin: 0 auto;
     position: relative;
 }
