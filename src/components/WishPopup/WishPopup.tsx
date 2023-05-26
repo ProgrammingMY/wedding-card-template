@@ -30,7 +30,9 @@ const WishPopup: FC<IProp> = ({ showPopup, setWishPopup }) => {
             const newWishes = JSON.parse(wishes);
             newWishes.unshift(item.Item);
             sessionStorage.setItem('wishes', JSON.stringify(newWishes));
-        } else {
+        } 
+        // first ever wish in the board
+        else {
             sessionStorage.setItem('wishes', JSON.stringify(item.Item));
         }
     }

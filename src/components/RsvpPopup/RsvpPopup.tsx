@@ -24,6 +24,18 @@ const RsvpPopup: FC<IProp> = ({ showPopup, setRsvpPopup }) => {
     const [complete, setComplete] = useState(false);
 
     const formRef = useRef<HTMLFormElement>(null);
+
+    const updateWishes = (item: IData) => {
+        const wishes = sessionStorage.getItem('wishes') || '[]';
+        if (wishes) {
+            const newWishes = JSON.parse(wishes);
+            newWishes.unshift(item.Item);
+            sessionStorage.setItem('wishes', JSON.stringify(newWishes));
+        } else {
+            sessionStorage.setItem('wishes', JSON.stringify(item.Item));
+        }
+    }
+
     // handle submission
     const handleSubmit = async (data: React.FormEvent<HTMLFormElement>) => {
         if (!formRef.current) return;
@@ -60,6 +72,10 @@ const RsvpPopup: FC<IProp> = ({ showPopup, setRsvpPopup }) => {
         });
 
         (data.target as HTMLFormElement).reset();
+        // update wish board if rsvp has message
+        if (request.Item.has_message.S === "true") {
+            updateWishes(request)
+        }
         setComplete(true);
         setRsvpPopup(false);
     }
