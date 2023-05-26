@@ -1,0 +1,15 @@
+#footer {
+    /* background-image: url("../../assets/lily_background.png"); */
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    width: 100%;
+    background-color: var(--color-bg);
+    padding-block: 11em;
+    
+}
+
+.footer-ours {
+    margin: 0 auto;
+    text-align: center;
+}

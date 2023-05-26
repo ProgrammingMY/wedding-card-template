@@ -1,0 +1,84 @@
+#rsvp {
+    /* background: url("../../assets/lily_background.png"); */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: var(--color-bg);
+    padding-block: 5em;
+}
+
+.rsvp__container {
+    text-align: center;
+    padding-inline: 1em;
+    height: 100%;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.rsvp__container> :first-child {
+    margin-bottom: 2.5em;
+    /* margin-top: 2em; */
+}
+
+.countdown__container {
+    width: 100%;
+    border-bottom: 2px solid #e5e5e5;
+    padding: 2.5em 0;
+}
+
+.countdown__number {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 3rem;
+    width: fit-content;
+}
+
+.map__text-english.countdown {
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1rem;
+}
+
+
+.prayer h1 {
+    margin-bottom: 0.5em;
+}
+
+.prayer>* {
+    padding-inline: 1rem;
+    text-align: justify;
+    text-align-last: center;
+    -ms-text-align-last: center;
+    -moz-text-align-last: center;
+}
+
+@supports not (text-align-last: center) {
+    .prayer>* {
+        text-align: center;
+        padding-inline: 1rem;
+    }
+}
+
+.container-divider-rsvp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin: 0;
+}
+
+.container-divider-rsvp svg {
+    position: relative;
+    display: block;
+    /* width: calc(100% + 1.3px); */
+    width: 100%;
+    height: 80px;
+}
+
+.container-divider-rsvp .shape-fill {
+    fill: #fff;
+}

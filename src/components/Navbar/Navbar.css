@@ -1,0 +1,86 @@
+.nav-button {
+    background: hsl(0 0% 84% / 0.5);
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+    z-index: 100;
+    position: fixed;
+    bottom: 1em;
+    left: 50%;
+    border-radius: 0.5em;
+    transform: translateX(-50%);
+    /* max-height: var(--nav-height);*/
+}
+
+/* Controller Buttons */
+.nav-btn {
+    background-color: transparent;
+    cursor: pointer;
+    padding-block: 1em;
+    display: grid;
+    color: #333;
+}
+
+.nav-btn small {
+    font-size: 0.7rem;
+}
+
+.nav-btn-dropdown {
+    background-color: transparent;
+    cursor: pointer;
+    padding-top: 0.5rem;
+    position: relative;
+}
+
+.nav-btn:hover {
+    color: #636363;
+  }
+
+
+.dropdown-content {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    right: -3dvw;
+    background-color: transparent;
+    transform: translateY(-120%);
+    transition: 0.2s ease-in-out;
+}
+
+.dropdown-content.active {
+    opacity: 1;
+    display: block;
+    visibility: visible;
+    transform: translateY(-130%);
+}
+
+.dropdown-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content li {
+    color: #4d4d4d;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: rgba(220,220,220, 0.9);
+    font-size: 0.9rem;
+    display: block;
+    margin: 1em 0;
+}
+
+.dropdown__content-icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.2em;
+    padding: 0.5em;
+    /* font-size: min(1em, 3vw); */
+}
+
+.nav-btn:hover {
+    color: #636363;
+}

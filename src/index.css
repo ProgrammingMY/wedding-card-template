@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Courgette&family=Dancing+Script&family=Lexend+Exa&family=Tangerine:wght@700&display=swap');
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  /* --color-bg: hsl(0deg 0% 95% / 60%); */
+  --color-bg: hsl(350deg 100% 88% / 0.3);
+  --color-primary: #6d6d6d;
+  --color-secondary: #995b3c;
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+
+  --nav-height: 3em;
+
+  --baseline: 12px;
+
+  --nav-height: calc(7vh + 2.5em);
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* add background-image for web */
+/* import font */
+body {
+  margin: 0 auto;
+  /* display: flex; */
+  /* height: -webkit-fill-available;
+  height: -moz-available;
+  height: 100%; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  font-family: 'Lexend Exa', 'courgette', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.7;
+  -webkit-overflow-scrolling: touch;
+  background-color: hsl(0 0% 90% / 1);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+div>h2 {
+  color: var(--color-secondary);
+  font-weight: 300;
+  font-size: 1.1rem;
+  font-size: clamp(1rem, 0.2rem + 3vw, 1.3rem);
+  margin-bottom: 1em;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.text-malay {
+  color: var(--color-primary);
+  font-size: 0.8rem;
+  letter-spacing: 0.05rem;
+}
+
+.text-english {
+  color: var(--color-secondary);
+  font-size: min(0.65rem, 3vw);
+}
+
+.text-malay2 {
+  color: var(--color-primary);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+/* page fade effect */
+.hide {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* form part */
+form {
+  color: var(--color-primary);
+}
+
+form>p {
+  margin-block: 0.8em;
+  font-size: 0.8rem;
+}
+
+input,
+textarea {
+    width: 80%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    resize: none;
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 50%);
+}
+
+.rsvp__btn {
+  display: inline-block;
+  color: black;
+  font-weight: 700;
+  font-size: medium;
+  background-color: #E3BC9A;
+  padding: 0.75rem 4rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  outline: transparent;
+  box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 50%);
+  width: 100%;
+}
+
+.rsvp__btn:hover {
+  background-color: #003860;
+  color: aliceblue;
+}
+
+.close-button {
+  min-width: 1em;
+  aspect-ratio: 1/1;
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+  cursor: pointer;
+  font-size: 2em;
+  opacity: 0.5;
+  display: inline-block;
+  color: black;
+  background: transparent;
+}
+
+.close-button:hover {
+  opacity: 1;
+}

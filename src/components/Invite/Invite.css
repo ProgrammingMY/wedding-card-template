@@ -1,0 +1,114 @@
+.invite-container {
+    width: 100%;
+    min-height: 100%;
+    transition: all 300ms;
+    padding-bottom: 5em;
+    padding-top: 2em;
+    background-color: var(--color-bg);
+}
+
+.invite-container>div {
+    margin-block: 2em;
+}
+
+.invite-container > div:not(.invite__assets-bismillah) {
+    margin-bottom: 3em;
+}
+
+
+.invite__assets-bismillah {
+    width: min(15rem, 80%);
+    margin-top: 1.5rem;
+}
+
+.invite__assets-text {
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    margin-inline: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.invite__assets-text h2 {
+    font-family: "Abhaya Libre", serif;
+    letter-spacing: 0.05rem;
+    font-weight: 200;
+    font-size: 1.27rem;
+    margin: 0;
+}
+
+.invite__assets-pengantin {
+    margin-bottom: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.invite__assets-pengantin h2 {
+    font-family: "Tangerine", serif;
+    text-align: center;
+    font-size: clamp(1.9rem, 0.2rem + 6vw, 2.1rem);
+    line-height: 1.4;
+    letter-spacing: 0.07rem;
+    margin: 0;
+}
+
+.invite__assets-border {
+    width: 40%;
+}
+
+.container-divider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin: 0;
+}
+
+.container-divider svg {
+    position: relative;
+    display: block;
+    /* width: calc(100% + 1.3px); */
+    width: 100%;
+    height: 80px;
+}
+
+.container-divider .shape-fill {
+    fill: var(--color-bg);
+}
+
+/* .invite {
+    background-color: var(--color-bg);
+} */
+
+.container-divider-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    margin: 0;
+    padding-block: 0;
+}
+
+.container-divider-bottom svg {
+    position: relative;
+    display: block;
+    /* width: calc(100% + 1.3px); */
+    width: 100%;
+    height: 75px;
+}
+
+.container-divider-bottom .shape-fill {
+    fill: #fff;
+}
+
+.container-divider.invite {
+    top: -5em;
+}

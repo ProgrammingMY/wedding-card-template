@@ -1,0 +1,47 @@
+/* form */
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.popup-container.active {
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: visible;
+    display: block;
+    z-index: 101;
+}
+
+.popup {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 100%;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(5%);
+    z-index: 9999;
+    opacity: 0;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+}
+
+.popup.active {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.rsvp__btn.ucapan {
+    margin-top: 2em;
+    margin-bottom: calc(var(--nav-height) + 1em);
+    width: 80%;
+}

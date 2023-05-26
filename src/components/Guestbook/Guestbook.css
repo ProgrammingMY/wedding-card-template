@@ -1,0 +1,68 @@
+
+#guestbook {
+    /* background: url("../../assets/lily_background.png"); */
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    width: 100%;
+    padding-block: 1em;
+}
+
+/* size div same as background image */
+/* text will not appear outside padding*/
+.guestbook__wishes {
+    width: 100%;
+}
+
+.guestbook__wishes > div {
+    margin-block: 1.5em;
+    /* width: 100%; */
+}
+
+.guestbook__button {
+    text-align: center;
+    /* width: 100%; */
+}
+
+/* sentence that overflow x will go to next line */
+.guestbook__box {
+    text-align: center;
+    overflow-y: scroll;
+    text-overflow: ellipsis;
+    white-space: normal;
+    background: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 80%;
+    aspect-ratio: 1/1.5;
+    max-height: calc(80vh - var(--nav-height));
+    box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 50%);
+}
+
+.guestbook__box ul {
+    padding: 1rem 0;
+    width: 100%;
+    text-align: center;
+}
+
+.guestbook__box li {
+    border-bottom: 1px solid #e5e5e5; /* add a horizontal line */
+    padding: 1rem 0; /* add some padding to separate the lines */
+    width: 90%;
+  }
+
+.guestbook__box strong {
+    font-family: 'Lexend Exa';
+    color: pink;
+}
+
+.guestbook__box p {
+    font-family: 'courgette';
+    color: #4D4D4D;
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
+.rsvp__btn.wish {
+    width: 80%;
+}
