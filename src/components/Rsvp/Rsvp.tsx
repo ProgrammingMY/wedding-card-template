@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import './Rsvp.css'
 
 const Rsvp = () => {
-  const nikah_day = new Date('2023-07-08')
+  const nikah_day = new Date('2024-02-12')
   const now = new Date()
   const diff = nikah_day.getTime() - now.getTime()
   const days = Math.floor(diff / (1000 * 60 * 60 * 24)) + 1
@@ -18,7 +18,7 @@ const Rsvp = () => {
 
         <div className="countdown__container">
           <h2>Counting days</h2>
-          <p className='countdown__number'>XX</p>
+          <p className='countdown__number'>{days}</p>
           <p className='map__text-english countdown'>days</p>
         </div>
 

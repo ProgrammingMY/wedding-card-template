@@ -11,8 +11,8 @@ const Footer = () => {
                 </svg>
             </div>
             <div className='footer-ours'>
-                <h2>This wedding card template is created by Loqman</h2>
-                <a href="https://www.linkedin.com/in/loqman-al-hakim-aripin/">LinkedIn Profile</a>
+                <h2>This wedding card template is created by Loqman & Mira</h2>
+                <a href="https://www.linkedin.com/in/loqman-al-hakim-aripin/">Loqman's LinkedIn</a>
                 <br></br>
                 <a href="https://github.com/akkeyron">Github Profile</a>
                 <br></br>

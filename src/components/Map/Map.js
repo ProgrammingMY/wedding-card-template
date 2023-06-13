@@ -31,8 +31,8 @@ const Map = () => {
                 </div>
                 <div className='map__text'>
                     <RxCalendar size={28} />
-                    <p className='map__text-malay'>SABTU | DAY MONTH YEAR</p>
-                    <p className='map__text-english'>Saturday | Day Month Year</p>
+                    <p className='map__text-malay'>SABTU | 31 FEBRUARI 2024</p>
+                    <p className='map__text-english'>Saturday | 31st FEBRUARY 2024</p>
                 </div>
 
                 <div className='map__text'>
@@ -44,7 +44,7 @@ const Map = () => {
 
                 <div className='map__text'>
                     <CiClock2 size={28} />
-                    <p className='map__text-malay'>TIME START - TIME END</p>
+                    <p className='map__text-malay'>11.00 AM - 04.00 PM</p>
                 </div>
 
                 <div className='map__text'>
