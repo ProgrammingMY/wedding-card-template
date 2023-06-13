@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/wedding-card-template/static/css/main.f9133508.css",
-    "main.js": "/wedding-card-template/static/js/main.493e7add.js",
+    "main.css": "/wedding-card-template/static/css/main.88502057.css",
+    "main.js": "/wedding-card-template/static/js/main.43caf6b1.js",
+    "static/media/background2.jpg": "/wedding-card-template/static/media/background2.d2d5c3625db51d2ed6c7.jpg",
     "static/media/initial.png": "/wedding-card-template/static/media/initial.1c80510858e008ac2bae.png",
     "static/media/petal.GIF": "/wedding-card-template/static/media/petal.d225dd5db6e0cae75961.GIF",
     "static/media/pink_flower.png": "/wedding-card-template/static/media/pink_flower.80f282e4072195931127.png",
     "static/media/bismillah.png": "/wedding-card-template/static/media/bismillah.9e3bfdbf0089bd1ab0e5.png",
     "static/media/walimah.png": "/wedding-card-template/static/media/walimah.774a66ec8d100f290145.png",
     "static/media/ours.png": "/wedding-card-template/static/media/ours.68b5d036d06db4547dc3.png",
-    "static/media/background2.jpg": "/wedding-card-template/static/media/background2.5ac8dcd72e6d53843ae1.jpg",
     "static/media/waze-icon.svg": "/wedding-card-template/static/media/waze-icon.9218543aea7980a874583a7c71ea1d9a.svg",
     "static/media/google-maps-icon.svg": "/wedding-card-template/static/media/google-maps-icon.040eb2e224fc077048b6e4a16bfef187.svg",
     "index.html": "/wedding-card-template/index.html",
-    "main.f9133508.css.map": "/wedding-card-template/static/css/main.f9133508.css.map",
-    "main.493e7add.js.map": "/wedding-card-template/static/js/main.493e7add.js.map"
+    "main.88502057.css.map": "/wedding-card-template/static/css/main.88502057.css.map",
+    "main.43caf6b1.js.map": "/wedding-card-template/static/js/main.43caf6b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9133508.css",
-    "static/js/main.493e7add.js"
+    "static/css/main.88502057.css",
+    "static/js/main.43caf6b1.js"
   ]
 }
