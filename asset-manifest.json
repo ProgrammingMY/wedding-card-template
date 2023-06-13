@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wedding-card-template/static/css/main.df04e08c.css",
+    "main.css": "/wedding-card-template/static/css/main.e6acb10f.css",
     "main.js": "/wedding-card-template/static/js/main.5cb7b1c6.js",
     "static/media/background2.jpg": "/wedding-card-template/static/media/background2.d2d5c3625db51d2ed6c7.jpg",
     "static/media/initial.png": "/wedding-card-template/static/media/initial.1c80510858e008ac2bae.png",
@@ -12,11 +12,11 @@
     "static/media/waze-icon.svg": "/wedding-card-template/static/media/waze-icon.9218543aea7980a874583a7c71ea1d9a.svg",
     "static/media/google-maps-icon.svg": "/wedding-card-template/static/media/google-maps-icon.040eb2e224fc077048b6e4a16bfef187.svg",
     "index.html": "/wedding-card-template/index.html",
-    "main.df04e08c.css.map": "/wedding-card-template/static/css/main.df04e08c.css.map",
+    "main.e6acb10f.css.map": "/wedding-card-template/static/css/main.e6acb10f.css.map",
     "main.5cb7b1c6.js.map": "/wedding-card-template/static/js/main.5cb7b1c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.df04e08c.css",
+    "static/css/main.e6acb10f.css",
     "static/js/main.5cb7b1c6.js"
   ]
 }
