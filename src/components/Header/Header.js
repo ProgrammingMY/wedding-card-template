@@ -25,13 +25,18 @@ const Header = () => {
         </div>
 
         <div className='main__header-venue'>
-          <p className='text-header' >SATURDAY | DD-TH OF MONTH YEAR</p>
+          <p className='text-header' >SATURDAY | 30TH OF FEBRUARY 2024</p>
 
         </div>
       </div>
 
 
 
+      <div class="container-divider">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class='shape-fill'></path>
+    </svg>
+      </div>
     </div>
 
   )

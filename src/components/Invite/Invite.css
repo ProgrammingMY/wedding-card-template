@@ -61,25 +61,22 @@
 
 .container-divider {
     position: absolute;
-    top: 0;
+    bottom: -1px;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
-    margin: 0;
 }
 
 .container-divider svg {
     position: relative;
     display: block;
-    /* width: calc(100% + 1.3px); */
     width: 100%;
-    height: 80px;
+    height: 50px;
 }
 
 .container-divider .shape-fill {
-    fill: var(--color-bg);
+    fill: #ffe0e5;
 }
 
 /* .invite {
@@ -110,5 +107,6 @@
 }
 
 .container-divider.invite {
-    top: -5em;
+    /* top: -5em; */
 }
+
