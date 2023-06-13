@@ -39,7 +39,8 @@ const App = () => {
 
 
   useEffect(() => {
-    const pageElements = document.querySelectorAll('.paper');
+    const pageElements = document.querySelectorAll('.kad-kahwin > .paper:not(:nth-child(2))');
+    // const pageElements = document.querySelectorAll('.paper');
     const observe = () => {
       pageElements.forEach((pageElement) => {
         observer.observe(pageElement);
