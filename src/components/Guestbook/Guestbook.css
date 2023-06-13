@@ -34,8 +34,8 @@
     border-radius: 0.5rem;
     padding: 0.5rem;
     width: 80%;
-    aspect-ratio: 1/1.5;
-    max-height: calc(80vh - var(--nav-height));
+    /* aspect-ratio: 1/1.5; */
+    height: calc(80vh - var(--nav-height));
     box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 50%);
 }
 
