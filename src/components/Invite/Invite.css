@@ -76,7 +76,7 @@
 }
 
 .container-divider .shape-fill {
-    fill: #ffe0e5;
+    fill: hsl(350deg 100% 94% / 90%);
 }
 
 /* .invite {

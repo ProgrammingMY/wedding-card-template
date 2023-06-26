@@ -14,9 +14,7 @@ const Footer = () => {
                 <h2>This wedding card template is created by Loqman & Mira</h2>
                 <a href="https://www.linkedin.com/in/loqman-al-hakim-aripin/">Loqman's LinkedIn</a>
                 <br></br>
-                <a href="https://github.com/akkeyron">Github Profile</a>
-                <br></br>
-                <a href="https://github.com/akkeyron/wedding-card-template">Source code</a>
+                <a href="https://github.com/akkeyron/wedding-card-template/tree/master">Github</a>
                 
             </div>
         </footer>

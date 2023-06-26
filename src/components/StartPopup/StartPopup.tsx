@@ -31,11 +31,11 @@ const StartPopup = () => {
                 <div id='content' className='popup-content'>
                     <h2>Assalamualaikum and Greetings!</h2>
                     <p className='popup-text'>
-                        This wedding card online is created by Loqman & Mira
+                        This online wedding card template is created by Loqman & Mira
                         <br></br><br></br>
                         <a href="https://www.linkedin.com/in/loqman-al-hakim-aripin/">Loqman's LinkedIn</a>
                         <br></br>
-                        <a href="https://github.com/akkeyron">Github Profile</a>
+                        <a href="https://github.com/akkeyron/wedding-card-template/tree/master">Github</a>
                         <br></br><br></br>
                         Click OK to proceed
 
