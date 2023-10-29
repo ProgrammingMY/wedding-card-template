@@ -1,7 +1,5 @@
 # Wedding card online template 1
 
-This template is created by Loqman & Mira
-
 ## Technologies used
 
 ### Frontend
